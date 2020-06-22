@@ -41,6 +41,20 @@ Strings are written by enclosing their content in quotes. You can use single quo
 
 ```
 let testString = 'Hey I am a string!'
-let testString2 = "Hey I am also a string!'
+let testString2 = "Hey I am also a string!"
 let testString3 = `Hey I am an invalid string! Why?"
 ```
+
+Strings are, you guessed it, bits. At the deepest root of any data, is a sequence of bits, allowing the computer to decipher the data.
+
+You can add strings together using +
+```
+let string1 = "String 1 ready for duty, ";
+let string2 = "and my buddy String 2 is right next to me";
+let joinedStrings = string1 + string2;
+console.log(joinedStrings);
+// returns "String 1 ready for duty, and my buddy String 2 is right next to me"
+```
+
+You can do many other things with strings. As you need, research further. For now, fundamentals are key.
+
