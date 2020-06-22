@@ -40,5 +40,10 @@ The main thing to do with numbers, is arithmetic.
 - remainder of (%) 
 - remainder of (%) is often referred to as *modulo*
 
-all the above symbols are called operators
-
+These are self explanatory, however, the % operator will return the remainder of the division of two numbers
+```
+100 % 2 = 0
+314 % 100 = 14 
+```
+- The remainder of 100 / 2 is 0
+- The remainder of 314 / 100 is 14
