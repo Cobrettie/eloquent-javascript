@@ -6,22 +6,7 @@ You guessed it. Number value types are numeric values. 13, 27, -986, 18.84, are 
 
 The main thing to do with numbers, is arithmetic. 
 
-### Arithmetic Operators
-
-- addition (+)
-- subtraction (-)
-- multiplication (*)
-- division (/)
-- remainder of (%) 
-- remainder of (%) is often referred to as *modulo*
-
-These are self explanatory, however, the % operator will return the remainder of the division of two numbers
-```
-100 % 2 = 0
-314 % 100 = 14 
-```
-- The remainder of 100 / 2 is 0
-- The remainder of 314 / 100 is 14
+[Arithmetic Operators](../operators/operators.md/#arithmetic-operators)
 
 ### Special Numbers
 
