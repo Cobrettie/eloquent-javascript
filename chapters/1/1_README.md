@@ -45,5 +45,5 @@ These are self explanatory, however, the % operator will return the remainder of
 100 % 2 = 0
 314 % 100 = 14 
 ```
-- The remainder of 100 / 2 is 0
-- The remainder of 314 / 100 is 14
+The remainder of 100 / 2 is 0
+The remainder of 314 / 100 is 14
