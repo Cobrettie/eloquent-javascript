@@ -2,6 +2,8 @@
 
 The main thing to do with numbers, is arithmetic. 
 
+Arithmetic operators are also binary operators, meaning two values are given
+
 - addition (+)
 - subtraction (-)
 - multiplication (*)
@@ -18,18 +20,35 @@ These are self explanatory, however, the % operator will return the remainder of
 - The remainder of 314 / 100 is 14
 
 
-## Unary Operators
+## Comparison Operators
+- egual to ==
+- not equal to !=
+- precisely equal ===
+- precisely not equal !==
+- less than <
+- greater than >
+- less than/equal to <=
+- greater than/equal to >=
 
+
+## Unary Operators
 A unary operator is just an operator that takes one value.
 
 A binary operator is an operator that takes two values.
 
 Not all operators are symbols, some are written as words.
 
+
 ### Examples of Unary Operators
 
-#### typeof
+#### negate a number
+negate a number using -
+```
+console.log(-(10 - 5));
+// -5
+```
 
+#### typeof
 The *typeof* operator, which names the type of the value you give it
 ```
 console.log(typeof(4));
@@ -40,7 +59,6 @@ console.log(typeof('Hey friend'));
 ```
 
 #### not
-
 The not operator is written as !
 
 An exclamation point? You may be wondering. Yes, exactly an exclamation point. 
@@ -54,8 +72,8 @@ console.log(!false);
 //true
 ```
 
-## Logical Operators
 
+## Logical Operators
 JavaScript supports three *logical operators*
 - and
   - represents logical *and*
@@ -70,8 +88,8 @@ JavaScript supports three *logical operators*
   - unary operator
   - returns a flipped value of value given
 
-### Conditional/Ternary Operator
 
+## Conditional/Ternary Operator
 The conditional/ternary operator operates on three given values
 - The first value given will determine which of the other two values will be returned
 - The second value given will be returned if the first value is true

@@ -74,7 +74,7 @@ NaN = false
 
 ```
 
-## Empty Values
+## Empty/Undefined Values
 
 That doesn't even sound right. *Empty values*? How can something empty have a value?
 
