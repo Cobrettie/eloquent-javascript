@@ -6,5 +6,7 @@ In this chapter, we will take a deeper dive into value types, and the operators 
 
 - [Value Types](./values/valuetypes.md)
 
+- [Operators](./operators/operators.md)
+
 
 

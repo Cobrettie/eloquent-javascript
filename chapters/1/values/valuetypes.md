@@ -50,11 +50,17 @@ Strings are, you guessed it, bits. At the deepest root of any data, is a sequenc
 You can add strings together using +
 ```
 let string1 = "String 1 ready for duty, ";
+
 let string2 = "and my buddy String 2 is right next to me";
+
 let joinedStrings = string1 + string2;
+
 console.log(joinedStrings);
 // returns "String 1 ready for duty, and my buddy String 2 is right next to me"
 ```
 
 You can do many other things with strings. As you need, research further. For now, fundamentals are key.
+
+
+## Boolean Values
 
