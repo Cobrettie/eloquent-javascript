@@ -2,6 +2,7 @@
 
 In this chapter, we will take a deeper dive into value types, and the operators we can perform on those values. 
 
+[Values]('./values/values.md')
 
 ## Value Types
 
