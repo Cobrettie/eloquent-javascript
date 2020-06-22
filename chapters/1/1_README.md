@@ -33,15 +33,12 @@ The main thing to do with numbers, is arithmetic.
 
 #### Arithmetic Operators
 
-+ addition
-- subtraction
-* multiplication
-/ division
-% remainder of
+addition (+)
+subtraction (-)
+multiplication (*)
+division (/)
+remainder of (%) 
+remainder of (%) is often referred to as *modulo*
 
 all the above symbols are called operators
-
-```
-100 + 4 * 11
-```
 
