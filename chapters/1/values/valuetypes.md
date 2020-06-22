@@ -62,4 +62,25 @@ console.log(10 > 20);
 // false
 ```
 
-A boolean is basically saying 'yes, this is true', or 'no, this is false'
+A boolean is basically saying 'yes this is true', or 'no this is false'
+
+#### Examples
+```
+0 = false
+
+NaN = false
+
+"" = false
+
+```
+
+## Empty Values
+
+That doesn't even sound right. *Empty values*? How can something empty have a value?
+
+You're right. But, to have nothing, you have to have something. 
+
+JavaScript provides us with a way to say 'this item exists but has no value'
+
+We are provided with **undefined** and **null**
+

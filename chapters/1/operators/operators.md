@@ -76,6 +76,7 @@ The conditional/ternary operator operates on three given values
 - The first value given will determine which of the other two values will be returned
 - The second value given will be returned if the first value is true
 - The third value given will be returned if the first value is false
+- Of the second and third values, only the value selected will be evaluated
 ```
 console.log(true ? 1 : 2);
 // returns 1
