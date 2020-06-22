@@ -1,5 +1,7 @@
 # Ah yes, Chapter One. We begin with values, types, and operators
 
+In this chapter, we will take a deeper dive into value types, and the operators we can perform on those values. 
+
 ## Values 
 
 In the computer's world, there is only data. We as humans, are simply viewing that data. Every single thing you see on a computer screen, is data.
@@ -22,3 +24,24 @@ Those chunks are called **values**. ALL **Values** are made entirely of bits. Ea
 
 
 ## Value Types
+
+### Numbers
+
+You guessed it. Number value types are numeric values. 13, 27, -986, 18.84, are all examples of numbers, and are all represented as bits. JavaScript uses a fixed number of bits to define ANY numeric value.
+
+The main thing to do with numbers, is arithmetic. 
+
+#### Arithmetic Operators
+
++ addition
+- subtraction
+* multiplication
+/ division
+% remainder of
+
+all the above symbols are called operators
+
+```
+100 + 4 * 11
+```
+
