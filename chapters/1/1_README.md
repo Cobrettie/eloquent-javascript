@@ -45,5 +45,16 @@ These are self explanatory, however, the % operator will return the remainder of
 100 % 2 = 0
 314 % 100 = 14 
 ```
-The remainder of 100 / 2 is 0
-The remainder of 314 / 100 is 14
+- The remainder of 100 / 2 is 0
+- The remainder of 314 / 100 is 14
+
+#### Special Numbers
+
+There are three special values in JavaScript that are considered numbers, they just don't behave like normal numbers
+- Infinity (The positive representation of infinity)
+- -Infinity (The negative representation of infinity)
+- NaN (Not a Number)
+  - although NaN is returned when calculating operations that don't return a meaningful result, NaN still is a value of the number type
+
+
+
