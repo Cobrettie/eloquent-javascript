@@ -51,10 +51,22 @@ These are self explanatory, however, the % operator will return the remainder of
 #### Special Numbers
 
 There are three special values in JavaScript that are considered numbers, they just don't behave like normal numbers
+
 - Infinity (The positive representation of infinity)
 - -Infinity (The negative representation of infinity)
 - NaN (Not a Number)
   - although NaN is returned when calculating operations that don't return a meaningful result, NaN still is a value of the number type
+
+
+### Strings
+
+Our next basic data type is the string. Strings are used to represent text! It's that simple.
+
+Strings are written by enclosing their content in quotes, whether double or single quotes
+```
+let testString = 'Hey I am a string!'
+let testString2 = "Hey I am also a string!'
+```
 
 
 
