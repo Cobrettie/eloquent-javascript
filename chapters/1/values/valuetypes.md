@@ -37,8 +37,10 @@ There are three special values in JavaScript that are considered numbers, they j
 
 Our next basic data type is the string. Strings are used to represent text! It's that simple.
 
-Strings are written by enclosing their content in quotes, whether double or single quotes
+Strings are written by enclosing their content in quotes. You can use single quotes(' '), double quotes(" "), or backticks (` `) to define strings, as long as you use the same quote at the beginning/end of the string.
+
 ```
 let testString = 'Hey I am a string!'
 let testString2 = "Hey I am also a string!'
+let testString3 = `Hey I am an invalid string! Why?"
 ```
