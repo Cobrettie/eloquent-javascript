@@ -14,3 +14,9 @@ Bits are any kind of two-valued things, such as zeros and ones. Any piece of dis
 
 Numbers, letters, mouse/keyboard events, any single thing you can do on a computer, can be reduced to bits. It's an extremely complex world behind the scenes in a computer.
 
+A typical modern computer has more than 30 billion bits in its working memory!
+
+That's not really feasible to work with. To be able to work with so many bits, and not get lost, JavaScript separates the bits into chunks that simply represent pieces of information.
+
+Those chunks are called <i>values</i>, and are entirely made of bits. Each value can play a different role. Some values are numbers, some values are strings(letters), some are functions, and so on.
+
