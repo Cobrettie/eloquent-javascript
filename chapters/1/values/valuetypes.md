@@ -64,3 +64,17 @@ You can do many other things with strings. As you need, research further. For no
 
 ## Boolean Values
 
+A *boolean type* has only two possibilities. True or False. Nothing more, nothing less.
+
+It's that simple. A boolean is either true or false.
+
+A quick example
+```
+console.log(3 > 2);
+// true
+
+console.log(10 > 20);
+// false
+```
+
+A boolean is basically saying 'yes, this is true', or 'no, this is false'
