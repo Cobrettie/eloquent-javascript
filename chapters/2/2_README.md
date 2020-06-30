@@ -79,3 +79,63 @@ invokedFunction('argument1', 'argument2', 'etc');
 ```
   - notice the strings inside of the parenthesis?
   - each comma separated value is called an *argument*, which is a value given to the function
+
+
+# Control Flow
+When your program contains more than one statement, those statements are executed from top to bottom
+
+
+# while and do loops
+
+## while loop
+
+**loop** === running a piece of code multiple times
+
+while loop runs the expressions in curly braces repeatedly as long as condition given in parenthesis returns true
+
+create a **while** loop
+- begin a statement with *while*
+- put condition inside of parenthesis
+- finish statement in curly braces
+```
+let result = 1;
+let counter = 0;
+
+while (counter < 10) {
+  result = result * 2;
+  counter = counter + 1;
+}
+
+console.log(result);
+// 1024
+```
+
+- Lets look at the above while loop
+  - our program initially runs, condition in parenthesis is true, expressions in curly braces run
+  - since this is a while loop, our program is going to run repeatedly until the condition in the parenthesis returns false
+
+If the condition in the while loop parenthesis initially returns false, the expressions in the curly braces will never run
+
+## do loop
+Similar to a while loop, a do loop will also execute the expressions inside of the curly braces, even if the condition in parenthesis initially returns false
+
+The do loop will start testing if it should continue running, after the first initial execution
+```
+let yourName;
+
+do {
+  yourName = prompt('Enter name');
+} while (!yourName);
+// console.log(yourName);
+```
+- This program will repeatedly run until you provide a value
+
+
+# for loops
+For loops are another syntactical way to write loops in programs, but for loops provide a shorter way to accomplish the same task.
+
+Let's look at an example
+```
+for (let number = 1; number < 100; number + 2) {
+  console.log(number);
+};
