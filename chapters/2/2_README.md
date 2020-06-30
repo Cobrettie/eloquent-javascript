@@ -75,9 +75,7 @@ prompt("Enter passcode");
 - executing a function is called *invoking*, *calling*, *applying* it
 - execute a function by putting parenthesis after an expression that produces a function value
 ```
-invokedFunction('argument1', 'argument2', 'etc') {
-  return 'function has been invoked';
-} 
+invokedFunction('argument1', 'argument2', 'etc');
 ```
   - notice the strings inside of the parenthesis?
   - each comma separated value is called an *argument*, which is a value given to the function
