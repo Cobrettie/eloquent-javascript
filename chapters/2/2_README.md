@@ -1,4 +1,4 @@
-# Chapter Two. Please, allow me to express meaningful prose, and do some *real* programming
+# Chapter Two. As the path grows, the divides are split again, and we push forward. Let us begin *real* programming
 
 
 # Expressions and Statements
