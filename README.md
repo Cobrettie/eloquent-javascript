@@ -2,3 +2,4 @@
 
 - [Chapter 1](./chapters/1/1_README.md)
 - [Chapter 2](./chapters/2/2_README.md)
+- [Chapter 3](./chapters/3/3_README.md)
