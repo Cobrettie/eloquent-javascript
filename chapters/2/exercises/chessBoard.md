@@ -69,3 +69,22 @@ Loop two. Create your counter, if count is less than **size**(8), keep counting.
   - Add **a** and **b**. If the value of **a** + **b** divides by 2 evenly, add a space to **string**. If the value does not divide by 2 evenly, add a # to our **string**.
 
 At this point, if your code is written properly, you should have a working solution!
+
+### The refactor
+```
+let size = 8;
+let board = '';
+
+for (let a = 0; a < size; a++) {
+  for (let b = 0; b < size; b++) {
+    if ((a + b) % 2 == 0) {
+      board += ' ';
+    } else {
+      board += '#';
+    }
+  }
+  board += '\n';
+}
+
+console.log(board);
+```
